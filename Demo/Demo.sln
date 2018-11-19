@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Common", "Demo.Common\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Layers", "1-Layers", "{5EE6EF89-45F2-44DB-A393-2D887E8BDC2B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50EE62BD-7751-4C50-9083-DE67A551F5DD}"
-	ProjectSection(SolutionItems) = preProject
-		README.txt = README.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1-Cross Cutting", "1.1-Cross Cutting", "{4EBF468E-CD64-4852-9FBA-2E9EC087C23D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2-Presentation", "1.2-Presentation", "{2DDB3676-B9C9-420E-A1A6-689B808DC473}"
@@ -160,67 +155,5 @@ Global
 		{6611918F-A7ED-4804-88AA-4D76269DE873} = {8F66C457-1F92-443C-B35A-1C14698F08BF}
 		{0ABCABA5-61C2-4B37-BF1C-85C8CAD1E6FA} = {E0FE3B95-1A12-401C-96C6-C85BDBC5C5B9}
 		{55CB1B91-8CB9-4C12-95A3-F5AB8613F440} = {2DDB3676-B9C9-420E-A1A6-689B808DC473}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 15
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://nilavpatel.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Demo.Application.Contract\\Demo.Application.Contract.csproj
-		SccProjectTopLevelParentUniqueName1 = Demo.sln
-		SccProjectName1 = Demo.Application.Contract
-		SccLocalPath1 = Demo.Application.Contract
-		SccProjectUniqueName2 = Demo.Application\\Demo.Application.csproj
-		SccProjectTopLevelParentUniqueName2 = Demo.sln
-		SccProjectName2 = Demo.Application
-		SccLocalPath2 = Demo.Application
-		SccProjectUniqueName3 = Demo.Common\\Demo.Common.csproj
-		SccProjectTopLevelParentUniqueName3 = Demo.sln
-		SccProjectName3 = Demo.Common
-		SccLocalPath3 = Demo.Common
-		SccProjectUniqueName4 = Demo.Database\\Demo.Database.sqlproj
-		SccProjectTopLevelParentUniqueName4 = Demo.sln
-		SccProjectName4 = Demo.Database
-		SccLocalPath4 = Demo.Database
-		SccProjectUniqueName5 = Demo.DependencyResolver\\Demo.DependencyResolver.csproj
-		SccProjectTopLevelParentUniqueName5 = Demo.sln
-		SccProjectName5 = Demo.DependencyResolver
-		SccLocalPath5 = Demo.DependencyResolver
-		SccProjectUniqueName6 = Demo.DistributedServices\\Demo.DistributedServices.csproj
-		SccProjectTopLevelParentUniqueName6 = Demo.sln
-		SccProjectName6 = Demo.DistributedServices
-		SccLocalPath6 = Demo.DistributedServices
-		SccProjectUniqueName7 = Demo.Domain\\Demo.Domain.csproj
-		SccProjectTopLevelParentUniqueName7 = Demo.sln
-		SccProjectName7 = Demo.Domain
-		SccLocalPath7 = Demo.Domain
-		SccProjectUniqueName8 = Demo.EmailServices\\Demo.EmailServices.csproj
-		SccProjectTopLevelParentUniqueName8 = Demo.sln
-		SccProjectName8 = Demo.EmailServices
-		SccLocalPath8 = Demo.EmailServices
-		SccProjectUniqueName9 = Demo.Framework\\Demo.Framework.csproj
-		SccProjectTopLevelParentUniqueName9 = Demo.sln
-		SccProjectName9 = Demo.Framework
-		SccLocalPath9 = Demo.Framework
-		SccProjectUniqueName10 = Demo.Infrastructure\\Demo.Infrastructure.csproj
-		SccProjectTopLevelParentUniqueName10 = Demo.sln
-		SccProjectName10 = Demo.Infrastructure
-		SccLocalPath10 = Demo.Infrastructure
-		SccProjectUniqueName11 = Demo.Web.MVC\\Demo.Web.MVC.csproj
-		SccProjectTopLevelParentUniqueName11 = Demo.sln
-		SccProjectName11 = Demo.Web.MVC
-		SccLocalPath11 = Demo.Web.MVC
-		SccProjectUniqueName12 = Demo.DocumentServices\\Demo.DocumentServices.csproj
-		SccProjectTopLevelParentUniqueName12 = Demo.sln
-		SccProjectName12 = Demo.DocumentServices
-		SccLocalPath12 = Demo.DocumentServices
-		SccProjectUniqueName13 = Demo.Schedular\\Demo.Schedular.csproj
-		SccProjectTopLevelParentUniqueName13 = Demo.sln
-		SccProjectName13 = Demo.Schedular
-		SccLocalPath13 = Demo.Schedular
-		SccProjectUniqueName14 = LoggerPOC\\LoggerPOC.csproj
-		SccProjectTopLevelParentUniqueName14 = Demo.sln
-		SccProjectName14 = LoggerPOC
-		SccLocalPath14 = LoggerPOC
 	EndGlobalSection
 EndGlobal
