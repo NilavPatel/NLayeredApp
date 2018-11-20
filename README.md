@@ -50,19 +50,19 @@ public static class QuerySpecifications(){
 
 ## Extended classes (Demo.Common.ExtendedClass):
 ``````
-1.BaseController Class:
+1. BaseController Class:
 	Base controller class to inherit by controllers in MVC.
 	Filter Attributes are added.
 	Also extends controller class of System.Web.MVC.
-2.CustomJsonResult Class:
+2. CustomJsonResult Class:
 	Extends ActionResult class.
 	Used to return data in JSON format.
 ``````
 
 ## Fault Exception in WCF
-``````javascript
-1.Add  [FaultContract(typeof(ServiceException))] on contract
-2.Add fault using below code
+``````
+1. Add  [FaultContract(typeof(ServiceException))] on contract
+2. Add fault using below code
 	
 	throw new FaultException<ServiceException>(ExceptionManager.
                     HandleException("Product ID does not exist in system."));
@@ -85,21 +85,21 @@ $(document).ajaxError(function (e, xhr) {
 
 ## SQL Server Database type				= .NET Framework type 
 ``````
-	SQL Server Database type| .NET Framework type 
-	------------------------| ----------------------
-	Bigint| Int64 
-	binary, varbinary| Byte[] 
-	Bit| Boolean 
-	date, datetime, datetime2, smalldatetime| DateTime 
-	Datetimeoffset| DateTimeOffset 
-	decimal, money, smallmoney, numeric| Decimal 
-	float| Double 
+	SQL Server Database type | .NET Framework type 
+	------------ | -------------
+	Bigint | Int64 
+	binary, varbinary | Byte[] 
+	Bit | Boolean 
+	date, datetime, datetime2, smalldatetime | DateTime 
+	Datetimeoffset | DateTimeOffset 
+	decimal, money, smallmoney, numeric | Decimal 
+	float | Double 
 	int| Int32 
-	nchar, nvarchar,, char, varchar| String
-	real| Single 
-	rowversion, timestamp| Byte[] 
-	smallint| Int16 
-	time| TimeSpan 
-	tinyint| Byte 
-	uniqueidentifier| Guid
+	nchar, nvarchar,, char, varchar | String
+	real | Single 
+	rowversion, timestamp | Byte[] 
+	smallint | Int16 
+	time | TimeSpan 
+	tinyint | Byte 
+	uniqueidentifier | Guid
 ``````
