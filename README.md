@@ -83,23 +83,22 @@ $(document).ajaxError(function (e, xhr) {
 });
 ``````
 
-## SQL Server Database type				= .NET Framework type 
-``````
-	SQL Server Database type | .NET Framework type 
-	------------ | -------------
-	Bigint | Int64 
-	binary, varbinary | Byte[] 
-	Bit | Boolean 
-	date, datetime, datetime2, smalldatetime | DateTime 
-	Datetimeoffset | DateTimeOffset 
-	decimal, money, smallmoney, numeric | Decimal 
-	float | Double 
-	int| Int32 
-	nchar, nvarchar,, char, varchar | String
-	real | Single 
-	rowversion, timestamp | Byte[] 
-	smallint | Int16 
-	time | TimeSpan 
-	tinyint | Byte 
-	uniqueidentifier | Guid
-``````
+## SQL Server Database type	to .NET Framework type mapping
+
+SQL Server Database type | .NET Framework type 
+------------ | -------------
+Bigint | Int64 
+binary, varbinary | Byte[] 
+Bit | Boolean 
+date, datetime, datetime2, smalldatetime | DateTime 
+Datetimeoffset | DateTimeOffset 
+decimal, money, smallmoney, numeric | Decimal 
+float | Double 
+int| Int32 
+nchar, nvarchar,, char, varchar | String
+real | Single 
+rowversion, timestamp | Byte[] 
+smallint | Int16 
+time | TimeSpan 
+tinyint | Byte 
+uniqueidentifier | Guid
